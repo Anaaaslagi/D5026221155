@@ -8,7 +8,7 @@ class DosenController extends Controller
 {
     //
     public function index(){
-        $a = 20;
+        $a = 70;
         $b= 10;
         $c = $a * $b;
         return "<h1>Hasil Perkalian = " . (string)$c . "</h1>";
