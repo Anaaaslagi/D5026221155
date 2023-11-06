@@ -1,0 +1,26 @@
+body{
+    background-image:
+    linear-gradient(to right,white,yellow);
+    font-family: cursive;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto 50px;
+
+}
+
+h3{
+    color: rgb(66, 132, 230);
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius:  15%;
+    border-color: black;
+    text-align: center;
+    float: inline-start;
+}
+
+p{
+    color: rgb(213, 202, 202);
+    text-align: justify;
+
+}

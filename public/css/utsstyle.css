@@ -1,0 +1,250 @@
+html{
+    scroll-behavior: smooth;
+    transition: 0.6s;
+}
+
+/*Navbar Section*/
+
+#nav-bar{
+    text-transform: uppercase   ;
+    position: sticky ;
+    top: 0;
+    z-index: 1;
+    background-image: linear-gradient(to right, #a1fcdf, #09db99);
+}
+
+.navbar-brand{
+    color: black;
+    font-weight: 600;
+    transition: 0.3s;
+    opacity: 0.65;
+    display: inline-block;
+    position: relative;
+}
+
+.navbar-brand::before{
+    transition: 250ms;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: #031d44;
+}
+
+.navbar-brand:hover{
+    opacity: 1;
+    color: black;
+}
+
+.navbar-brand-fadeup::before{
+    width: 100%;
+    bottom: 6px;
+    opacity: 0;
+
+}
+
+.navbar-brand-fadeup:hover::before {
+    bottom: 2px;
+    opacity: 1;
+}
+
+.nav-link{
+    color: black;
+    font-weight: 500;
+    transition: 0.3s;
+    opacity: 0.65;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+}
+
+.nav-link::before{
+    transition: 250ms;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: #031d44;
+}
+
+.nav-link:hover{
+   opacity: 1;
+   color: black;
+}
+
+.nav-link-fadeup::before{
+    width: 100%;
+    bottom: 5px;
+    opacity: 0;
+}
+
+.nav-link-fadeup:hover::before {
+    bottom: 2px;
+    opacity: 1;
+}
+
+.fa-emoji-brand{
+    padding-right: 5px;
+}
+
+.fa-emoji{
+    margin-right: 5px;
+    margin-left: 12px;
+}
+
+.socials{
+    float: right;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    font-weight: 600;
+}
+
+.fa-brands{
+    opacity: 0.75;
+    padding-left: 15px;
+}
+
+.fa-brands:hover{
+    opacity: 1;
+}
+
+.socials a:visited{
+    color: black;
+}
+
+
+
+/*Banner Section*/
+
+#banner{
+    background-image: linear-gradient(to right, #a1fcdf, #09db99);
+    padding-top: 5%;
+}
+
+.text-perkenalkan{
+    margin-top: 100px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.text-biodata{
+    font-size: 20px;
+}
+
+.foto-profile{
+    width: 115%;
+    transition: 0.8s;
+}
+
+.foto-profile:hover{
+    transform: scale(1.3);
+}
+
+.bottom-img{
+    width: 100%;
+}
+
+/*Location Section*/
+
+#content{
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
+
+.text-content{
+    padding-top: 20px;
+}
+
+.image-content{
+    width: 100%;
+    transition: 0.3s;
+}
+
+.image-content:hover{
+    transform: scale(1.05);
+}
+
+/*Address Section*/
+
+#address{
+    padding-top: 8%;
+    padding-bottom: 9%;
+    background-image: linear-gradient(to right, #a1fcdf, #09db99);
+}
+
+.image-location{
+    transition: 0.7s;
+    width: 100%;
+    border-radius: 20%;
+}
+
+.image-location:hover{
+    transform: scale(1.05);
+}
+
+.text-address{
+    padding-top: 10px;
+    font-weight: 500;
+
+}
+
+.right-content{
+    padding-top: 25%;
+    padding-left: 25px;
+
+}
+
+.content-address{
+    font-size: 20px;
+
+}
+
+.address-link{
+    color: black;
+    font-weight: 500;
+}
+
+.address-link:hover{
+    color: black;
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+/* Form Section*/
+
+#form{
+    background-color: #F7F2F2;
+    padding-top: 70px;
+}
+
+.submit-btn{
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(66, 164, 69);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+}
+
+.submit-btn:hover{
+    background-color: #3e8e41
+}
+
+.submit-btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+  }
+
+/*Footer Section*/
+
+#footer{
+    padding: 15px;
+}
