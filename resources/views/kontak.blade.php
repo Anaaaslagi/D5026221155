@@ -27,7 +27,7 @@
         <tr>
             <td>NO</td>
             <td>:</td>
-            <td>({ $1 })</td>
+            <td>{{ $i }}</td>
         </tr>
         @endfor
 
