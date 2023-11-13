@@ -13,7 +13,7 @@
     <div class="container">
         <header>
 
-            <h2>Blog MalasNgoding</h2>
+            <h2>Blognya Ridho </h2>
             <nav>
                 <a href="/blog">HOME</a>
                 |
