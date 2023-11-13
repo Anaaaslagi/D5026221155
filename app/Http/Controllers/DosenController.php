@@ -29,4 +29,10 @@ class DosenController extends Controller
         //Cek soal hak akses
         return view ('formulir');
     }
+
+    public function proses(Request $request){
+        $nama= $request -> input('nama');
+        $alamat = $request ->input('alamat');
+        return "Nama: ". $nama ", Alamat". $alamat;
+    }
 }
