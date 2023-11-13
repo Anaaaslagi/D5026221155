@@ -33,6 +33,6 @@ class DosenController extends Controller
     public function proses(Request $request){
         $nama= $request -> input('nama');
         $alamat = $request ->input('alamat');
-        return "Nama: ". $nama ", Alamat". $alamat;
+        return "Nama: ". $nama .", Alamat". $alamat;
     }
 }
