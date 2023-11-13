@@ -10,9 +10,8 @@
     <p>Seri Tutorial Lavarel Lengkap Dari Dasar</p>
     <p>Ini Adalah Videw Blog. Ada di route blog</p>
     <p>
-        Nama: {{$nama}}
-        Alamat: {{$alamat}}
-        Umur: {{$umur}}
+
+        <a href="/pegawai/{{ date{'D M Y'} }}">Klik Disini</a>
     </p>
 </body>
 </html>
