@@ -24,4 +24,9 @@ class DosenController extends Controller
     public function shownama($nama){ //$nama itu sama dengan {nama} di web.php
         return "Anda telah mengisikan: ". $nama;
     }
+
+    public function formulir(){
+        //Cek soal hak akses
+        return view ('formulir');
+    }
 }

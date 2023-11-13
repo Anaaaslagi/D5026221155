@@ -11,7 +11,7 @@
     <p>Ini Adalah Videw Blog. Ada di route blog</p>
     <p>
 
-        <a href="/pegawai/{{ date{'D M Y'} }}">Klik Disini</a>
+        <a href="/pegawai/{{ date('D M Y') }}">Klik Disini</a>
     </p>
 </body>
 </html>
