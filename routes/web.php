@@ -68,7 +68,7 @@ Route::get('/blog2',function() {
 Route::get('perkalian', 'App\Http\Controllers\DosenController@index');
 Route::get('show' , 'App\Http\Controllers\DosenController@showBlog');
 
-Route::get('/pegawai/{nama}', 'App\Http\Controllers\DosenController@shownama');
+// Route::get('/pegawai/nama', 'App\Http\Controllers\DosenController@shownama');
 
 Route::get('/formulir', 'App\Http\Controllers\DosenController@formulir');
 Route::post('/formulir/proses', 'App\Http\Controllers\DosenController@proses');
