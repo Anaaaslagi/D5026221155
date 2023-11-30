@@ -5,7 +5,7 @@
 	<h2>www.malasngoding.com</h2>
 	<h3>Data Pegawai</h3>
 
-	<a href="/pegawai/tambah"> + Tambah Pegawai Baru</a>
+	<a href="/pegawai/tambah"> <input type="submit" value="Tambah Pegawai Baru" class="btn btn-primary"></a>
 
 	<br/>
 	<br/>
@@ -34,7 +34,7 @@
 			<td>{{ $p->pegawai_umur }}</td>
 			<td>{{ $p->pegawai_alamat }}</td>
 			<td>
-                <a href="/pegawai/edit/{{ $p->pegawai_id }}" class="btn btn-success">View</a>
+                <a href="/pegawai/view/{{ $p->pegawai_id }}" class="btn btn-success">View</a>
                 |
 				<a href="/pegawai/edit/{{ $p->pegawai_id }}" class="btn btn-warning">Edit</a>
 				|
