@@ -88,3 +88,9 @@ Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus')
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
 
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
+
+//Pertemuan 4 Desember 2023
+Route::get('/nilaikuliah', 'App\Http\Controllers\LatihanEASController@index');
+
+Route::get('/nilaikuliah/tambah', 'App\Http\Controllers\LatihanEASController@tambah');
+Route::post('/nilaikuliah/store', 'App\Http\Controllers\LatihanEASController@store');
