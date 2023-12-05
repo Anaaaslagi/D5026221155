@@ -41,3 +41,4 @@ class LatihanEASController extends Controller
     }
 
 }
+
