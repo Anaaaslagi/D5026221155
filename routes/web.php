@@ -94,3 +94,14 @@ Route::get('/nilaikuliah', 'App\Http\Controllers\LatihanEASController@index');
 
 Route::get('/nilaikuliah/tambah', 'App\Http\Controllers\LatihanEASController@tambah');
 Route::post('/nilaikuliah/store', 'App\Http\Controllers\LatihanEASController@store');
+
+//Latihan Pra EAS
+Route::get('/dvd','App\Http\Controllers\DvdController@index');
+Route::get('/dvd/tambah','App\Http\Controllers\DvdController@tambah');
+Route::post('/dvd/store','App\Http\Controllers\DvdController@store');
+Route::get('/dvd/edit/{kode}','App\Http\Controllers\DvdController@edit');
+Route::post('/dvd/update','App\Http\Controllers\DvdController@update');
+Route::get('/dvd/hapus/{kode}','App\Http\Controllers\DvdController@hapus');
+Route::get('/dvd/view/{kode}','App\Http\Controllers\DvdController@view');
+
+Route::get('/dvd/cari','App\Http\Controllers\DvdController@cari');
