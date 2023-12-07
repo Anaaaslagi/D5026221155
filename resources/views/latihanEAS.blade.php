@@ -2,7 +2,7 @@
 @section('title', 'Database Nilai kULIAH')
 
 @section('judul_halaman')
-    <h2>Latihan EAS 5026221086</h2>
+    <h2>Latihan EAS 5026221155</h2>
     <h3>Data Nilai Kuliah</h3>
 
     <a href="/nilaikuliah/tambah"> + Tambah Mahasiswa Baru</a>
