@@ -86,12 +86,10 @@ Route::get('/pegawai/edit/{id}','App\Http\Controllers\PegawaiController@edit');
 Route::post('/pegawai/update','App\Http\Controllers\PegawaiController@update');
 Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus');
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
-
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 
 //Pertemuan 4 Desember 2023
 Route::get('/nilaikuliah', 'App\Http\Controllers\LatihanEASController@index');
-
 Route::get('/nilaikuliah/tambah', 'App\Http\Controllers\LatihanEASController@tambah');
 Route::post('/nilaikuliah/store', 'App\Http\Controllers\LatihanEASController@store');
 
@@ -103,5 +101,4 @@ Route::get('/dvd/edit/{kode}','App\Http\Controllers\DvdController@edit');
 Route::post('/dvd/update','App\Http\Controllers\DvdController@update');
 Route::get('/dvd/hapus/{kode}','App\Http\Controllers\DvdController@hapus');
 Route::get('/dvd/view/{kode}','App\Http\Controllers\DvdController@view');
-
 Route::get('/dvd/cari','App\Http\Controllers\DvdController@cari');
