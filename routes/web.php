@@ -112,3 +112,7 @@ Route::post('/topi/update','App\Http\Controllers\topiController@update');
 Route::get('/topi/hapus/{kode}','App\Http\Controllers\topiController@hapus');
 Route::get('/topi/view/{kode}','App\Http\Controllers\topiController@view');
 Route::get('/topi/cari','App\Http\Controllers\topiController@cari');
+
+//EAS
+Route::get('/combo','App\Http\Controllers\kategoriController@index');
+Route::post('/kategori','App\Http\Controllers\kategoriController@view');
