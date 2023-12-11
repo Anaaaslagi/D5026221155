@@ -45,9 +45,9 @@ class DvdController extends Controller
 	public function edit($kode)
 	{
 		// mengambil data dvd berdasarkan kode yang dipilih
-		$dvd = DB::table('dvd')->where('kdoedvd',$kode)->get();
+		$dvd = DB::table('dvd')->where('kodedvd',$kode)->get();
 		// passing data pegawai yang didapat ke view edit.blade.php
-		return view('edit',['dvd' => $dvd]);
+		return view('editdvd',['dvd' => $dvd]);
 
 	}
 
