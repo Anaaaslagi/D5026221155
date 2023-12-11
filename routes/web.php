@@ -102,3 +102,13 @@ Route::post('/dvd/update','App\Http\Controllers\DvdController@update');
 Route::get('/dvd/hapus/{kode}','App\Http\Controllers\DvdController@hapus');
 Route::get('/dvd/view/{kode}','App\Http\Controllers\DvdController@view');
 Route::get('/dvd/cari','App\Http\Controllers\DvdController@cari');
+
+//Latihan Mandiri Sebelum EAS
+Route::get('/topi','App\Http\Controllers\topiController@index');
+Route::get('/topi/tambah','App\Http\Controllers\topiController@tambah');
+Route::post('/topi/store','App\Http\Controllers\topiController@store');
+Route::get('/topi/edit/{kode}','App\Http\Controllers\topiController@edit');
+Route::post('/topi/update','App\Http\Controllers\topiController@update');
+Route::get('/topi/hapus/{kode}','App\Http\Controllers\topiController@hapus');
+Route::get('/topi/view/{kode}','App\Http\Controllers\topiController@view');
+Route::get('/topi/cari','App\Http\Controllers\topiController@cari');
